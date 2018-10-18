@@ -1,0 +1,169 @@
+hr {
+    width: 50%;
+    background-color: rgba(0, 69, 70);
+    height: 2px;
+
+}
+
+.check-img {
+    width: 80%;
+}
+
+#discount-brama {
+    margin-top: 5em;
+}
+
+#discount-brama h3 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.discount-img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+#portfolio h3 {
+	font-family: 'Montserrat', sans-serif;
+    
+}
+
+h3.discount {
+    font-size: 1.5em;
+}
+
+.portfolio-item {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    max-width: 530px;
+    margin: auto auto 1rem
+}
+
+.portfolio-item .caption {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.portfolio-item .caption .caption-content {
+    color: #fff;
+    /*margin: auto 2rem 2rem;*/
+}
+
+.carousel-item img {
+    text-align: center;
+}
+
+#portfolio {
+	margin-top: 3em;
+}
+
+.portfolio-item .caption .caption-content h2 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    /*margin-left*/
+    margin-top:25px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.portfolio-item .caption .caption-content p {
+    width: 300px;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin:30px 0  0 3px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color: rgba(0, 69, 70);
+}
+
+.vurobu-vom {
+    padding-top: 2em;
+    background: #ffffff;
+}
+
+.vurobu-text {
+    color: rgba(0, 69, 70);
+}
+
+#service {
+    margin-top: 50px;
+}
+
+#service h2 {
+    margin-bottom: 40px;
+}
+
+@media (min-width:1025px) {
+    .portfolio-item {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .portfolio-item .caption {
+        -webkit-transition: -webkit-clip-path .25s ease-out, background-color .7s;
+        -webkit-clip-path: inset(0);
+        clip-path: inset(0);
+    }
+    .portfolio-item .caption .caption-content {
+        transition: opacity .25s;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-bottom: 5rem;
+    }
+    .portfolio-item img {
+        -webkit-transition: -webkit-clip-path .25s ease-out;
+        -webkit-clip-path: inset(-1px);
+        clip-path: inset(-1px);
+    }
+    .portfolio-item:hover img {
+        -webkit-clip-path: inset(.5rem);
+        clip-path: inset(.5rem);
+    }
+    .portfolio-item:hover .caption {
+        background-color: rgba(0, 69, 70, .1);
+        -webkit-clip-path: inset(.5rem);
+        clip-path: inset(.5rem);
+    }
+}
+
+#carouselExampleControls img {
+	max-width: 100%;
+}
+
+.carousel-control-next-icon {
+    background: rgba(0, 69, 70);
+	background-image: url(../img/next-button.png);
+}
+
+.carousel-control-prev-icon {
+    background: rgba(0, 69, 70);
+    background-image: url(../img/prev-button.png);
+}
+
+.iframe{
+display: flex;
+margin: 0 auto;
+border:0;
+}
+
+.stext {
+    text-transform: none;
+}
+
+.tomu a {
+    color: rgba(0, 69, 70);
+}
+
+.tomu a:hover {
+    color: rgba(0, 69, 70, 0.5);
+}
